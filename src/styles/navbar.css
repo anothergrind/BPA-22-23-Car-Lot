@@ -1,0 +1,78 @@
+.Nav {
+  display: flex;
+  flex-direction: row;
+  margin: auto;
+  padding: 0.63rem;
+  width: 100%;
+  position: fixed;
+  justify-content: space-around;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
+  top: 0;
+  color: white;
+  cursor: pointer;
+}
+
+#site-name {
+  margin-right: 10%;
+}
+
+#wolves-icon-nav {
+  width: 6%;
+  height: 50%;
+  cursor: pointer;
+}
+
+#wolves-icon-nav:hover {
+  opacity: 1;
+}
+
+.link {
+  text-decoration: none;
+  color: white;
+  margin: auto;
+  font-size: 30px;
+  padding-left: 10px;
+  opacity: 0.7;
+}
+
+.link:hover {
+  opacity: 1;
+}
+
+@media only screen and (max-width: 1150px) {
+  .link {
+    font-size: 20px;
+  }
+
+  #site-name {
+    font-size: 30px;
+  }
+
+  #wolves-icon {
+    width: 5%;
+    height: 27%;
+    cursor: pointer;
+    margin-top: 2.25%;
+    padding-right: 0.5rem;
+  }
+
+  .Nav {
+    padding: 0.25rem;
+  }
+}
+
+@media only screen and (min-width: 700px) {
+  .link {
+    font-size: 20px;
+  }
+
+  #site-name {
+    font-size: 22px;
+  }
+
+  #wolves-icon {
+    width: 5%;
+    height: 25%;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,13 @@
+.ahero {
+  /* Hero on the about us page*/
+  margin: auto;
+  background-image: url("https://s3-alpha-sig.figma.com/img/2f11/c84d/9d6b870b295e95f3bf89e153227ff458?Expires=1668384000&Signature=fMUKc8SNkcu0Pmc-jW~7RoRtKugi86SQIK3TzTB4vUaF3nmPAeLepl7-xmPP-rZoAOUwLcr63hbBe0hbp--kasepuBNmj4OoIMLqTgwTyU5idNigqhPQl51GCU7qVYEctX8WRO5xSHRLKLGQwv0cgynbRdA2IJpw4M2vLqSD3AkUzil-700YUojIZHuwz1UpzuMmc0WKUfyp1dhMIsmX-tG2Pcvh~f~YHZHRkUZffQJLrFQVX7hm-tJlWzp4L3vZm6KAXc-v1xRnOecbmPLp6oWIJJ-HZsA94bichsfXGq5otOx8sPA97eOBkgoDffZ1AF9-ONfLVQQcgVtHO8meuA__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA");
+  height: 100vh; /* You must set a specified height */
+  width: 100vh;
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Resize the background image to cover the entire container */
+  background-size: cover;
+  display: flex; /* Flexbox Layout*/
+  justify-content: center;
+  font-family: "Inter", sans-serif;
+}
