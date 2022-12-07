@@ -1,22 +1,61 @@
-.container {
+.section-container {
   display: flex;
   width: 100%;
   height: 80vh;
   text-align: center;
   flex-direction: column;
   justify-content: space-evenly;
+  margin:auto;
 }
 
-#section_one {
+.multi-section-container {
+  display: flex;
+  width: 100%;
+  height: 60vh;
+  text-align: center;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin:auto;
+}
+
+#dealership-description {
   background-color: #e1ce6f;
 }
 
-#section_two {
-  background-color: #e3e3e3;
+#about-wolves {
+  background-color: #C50F0F;
 }
 
-#section_three {
-  background-color: tan;
+#section-three {
+  justify-content: start;
+  gap: 50px;
+  background-color: #ADBAFF;
+  height: 50vh;
+}
+
+#our-purpose {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+#purpose-header {
+  text-align: left;
+  width: 30%;
+  margin: auto;
+}
+
+#purpose-body {
+  display: flex;
+  flex-direction: row;
+  text-align: left;
+  justify-content: flex-start;
+  margin: auto;
+  width: 50%;
+}
+
+#our-purpose img {
+  display: none;
 }
 
 .theBody {
@@ -43,4 +82,62 @@
   text-align: center;
   width: 60%;
   margin: auto;
+}
+
+#section-search {
+  top: 30%;
+  margin-top: none;
+  
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+  }
+  .columnc {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    height: 100vh;
+  }
+}
+
+.row {
+  display: flex;
+}
+
+.columnc {
+  float: left;
+  width: 33.33%;
+  padding: 0 15px;
+}
+
+/* Clear floats after the columns */
+.rowc:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+  flex: 50%;
+}
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  border-radius: 10px;
+  text-align: center;
+  /*background-image: url("https://replit.com/@DanielMekuria1/BPAWebsiteState#img/daniel.jpeg");*/
+  background-color: black;
+  color: #fdfffc;
+  opacity: 0.5;
+}
+
+.card:hover {
+  background-color: #e3e3e3;
+  opacity: 0.6;
+  cursor: pointer;
+  color: red;
 }

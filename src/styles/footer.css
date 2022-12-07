@@ -3,39 +3,51 @@
 .Footer {
   display: flex;
   flex-direction: row;
-  margin: auto;
-  padding: 0.63rem;
   width: 100%;
-  height: 30vh;
+  height: 20vh;
+  padding: 19px;
   position: relative;
-  justify-content: space-around;
+  justify-content: flex-start;
   background-color: #121619;
   bottom: 0;
   color: white;
   font-family: "Inter", sans-serif;
+  text-align: left;
 }
 
 .links {
   display: flex;
   flex-direction: column;
   margin: auto;
+  margin-left: 20px;
+  margin-right: 15vh;
 }
 
 .footer-container {
   display: flex;
   flex-direction: column;
   margin: auto;
+  margin-left: 30px;
+  margin-right: 40px;
+  width: 32%;
 }
 
-#wolves-icon {
-  width: 10%;
-  height: 50%;
+.contacts {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+#footer-wolves-icon {
+  width: 35vh;
+  height: 100%;
   opacity: 0.7;
-  margin: auto;
+  margin: none;
+  margin-right: none;
   cursor: pointer;
 }
 
-#wolves-icon: hover {
+#wolves-icon {
   opacity: 1;
 }
 
