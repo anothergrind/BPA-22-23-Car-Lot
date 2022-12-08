@@ -11,3 +11,42 @@
   justify-content: center;
   font-family: "Inter", sans-serif;
 }
+
+
+
+.devInfo {
+  margin: auto;
+  background-color: #898f9b;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-evenly;
+  width: 100%;
+  height:45vh;
+  padding: 35px;
+  font-family: "Inter", sans-serif;
+}
+
+.devCard {
+  width: 25%;
+  background-color: black;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  color: #fdfffc;
+  opacity: 0.5;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.devCard:hover {
+  background-color: #e3e3e3;
+  opacity: 0.6;
+  cursor: pointer;
+  color: red;
+}
+
+#devBody {
+  width: 100%;
+  justify-content: space-around;
+  margin: auto;
+}

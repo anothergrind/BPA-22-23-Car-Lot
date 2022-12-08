@@ -1,0 +1,24 @@
+.multi-section-container {
+    display: flex;
+    width: 100%;
+    height: 60vh;
+    text-align: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin:auto;
+    overflow: hidden;
+  }
+
+.reviewer-images {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+}
+
+.reviewer-image {
+    width: 50vh;
+    height: 20vh;
+    margin: auto;
+    border: 0.5rem solid brown;
+  }
