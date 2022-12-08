@@ -1,11 +1,15 @@
 import React from "react";
 import Hero from "../components/hero.jsx";
 import Sections from "../components/sections.jsx";
+import DeveloperInfo from "../components/developer_info.jsx";
+import SectionContainer from "../components/section-container.jsx";
 import "../styles/sections.css";
 import "../styles/about_us.css";
-import DeveloperInfo from "../components/developer_info.jsx";
 // about us page
+
 export default function about_us() {
+
+
   return (
     <>
       <div className="about">
@@ -14,13 +18,12 @@ export default function about_us() {
         backgroundImage = "https://uploads.codesandbox.io/uploads/user/4c2a8a2f-dad6-413e-bf24-18c8e11392c7/lV8i-about_us_hero.png"
         />
 
-        <div className="section-container" id="our-purpose">
-          <h1 id="purpose-header">Our Purpose</h1>
-          <div className="body-section" id="purpose-body">
-            <h2>It doesn't take a lot to make us look like the leader in theindustry when it comes to search results. 
-              That's why we're alwayscoming up with new ways to get people excited about our products.</h2>
-          </div>
-        </div>
+        <SectionContainer 
+        container_id = "our-purpose"
+        body_id = "purpose-body"
+        body_text1 = "It doesn't take a lot to make us look like the leader in theindustry when it comes to search results." 
+        body_text2 = "That's why we're alwayscoming up with new ways to get people excited about our products."
+        />
 
         <Sections 
         id = "about-wolves"
