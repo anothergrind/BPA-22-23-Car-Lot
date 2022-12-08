@@ -1,5 +1,6 @@
 import React from "react";
 import "../styles/explore.css";
+import "../styles/search.css";
 import placeholder from "../pictures/about_us_hero.png";
 import mercedes_placeholder from "../pictures/carHero.png";
 import { useState, useEffect } from "react";
