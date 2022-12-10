@@ -5,7 +5,7 @@
   text-align: center;
   flex-direction: column;
   justify-content: space-evenly;
-  margin:auto;
+  margin: auto;
 }
 
 .multi-section-container {
@@ -15,34 +15,39 @@
   text-align: center;
   flex-direction: row;
   justify-content: space-evenly;
-  margin:auto;
+  margin: auto;
 }
 
 #dealership-description {
-  background-color: #e1ce6f;
+  background-color: #DF2935;
+  font-family: "Inter", sans-serif;
 }
 
 #about-wolves {
   background-color: #C50F0F;
+  font-family: "Inter", sans-serif; 
 }
 
 #section-three {
   justify-content: start;
   gap: 50px;
-  background-color: #ADBAFF;
+  background-color: #898F9B;
   height: 50vh;
+  font-family: "Inter", sans-serif;
 }
 
 #our-purpose {
   display: flex;
   flex-direction: row;
   justify-content: center;
+  font-family: "Inter", sans-serif; 
 }
 
 #purpose-header {
   text-align: left;
   width: 30%;
   margin: auto;
+  font-family: "Inter", sans-serif; 
 }
 
 #purpose-body {
@@ -52,6 +57,7 @@
   justify-content: flex-start;
   margin: auto;
   width: 50%;
+  font-family: "Inter", sans-serif; 
 }
 
 #our-purpose img {
@@ -62,13 +68,13 @@
   display: flex;
   flex-direction: row;
   margin: auto;
+  font-family: "Inter", sans-serif; 
 }
 
 .image {
   width: 60vh;
   height: 40vh;
   margin: auto;
-  border: 0.5rem solid brown;
 }
 
 #header {
@@ -82,6 +88,7 @@
   text-align: center;
   width: 60%;
   margin: auto;
+  font-family: "Inter", sans-serif;
 }
 
 #section-search {
