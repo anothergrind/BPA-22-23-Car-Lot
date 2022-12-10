@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/explore.css";
+import "../styles/Explore.css";
 import "../styles.css";
 
 // component for hero section used in the home page
