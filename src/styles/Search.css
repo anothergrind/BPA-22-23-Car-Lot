@@ -1,0 +1,64 @@
+#section-search {
+    top: 30%;
+    margin-top: none;    
+  }
+
+  .search-section {
+    margin: auto;
+    background-color: #fdfffc; /* The image used */ /* Used if the image is unavailable */
+    width: 100%;
+    height: 30vh; /* You must set a specified height */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+    background-size: cover; /* Resize the background image to cover the entire container */
+    display: flex; /* flexbox layout */
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    top: 20%;
+  }
+  
+  .search-bar {
+    text-align: center;
+  }
+
+  #explore-search {
+    background-color: #fdfffc;
+  }
+
+
+  #query {
+    width: 60vh;
+    height: 10vh;
+    border-radius: 37px;
+    background-color: #fdfffc;
+  }
+
+  #click {
+    font-size: 24px;
+    border: 1px solid black;
+    background-color: #fdfffc;
+    padding: 10px;
+    border-radius: 35px;
+    transition-duration: .4s;
+  }
+
+  #click:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
+
+  #filter{
+    font-size: 16px;
+    font-family: "Inter", sans-serif; 
+    text-align: left;
+    padding-left: 400px;
+    cursor: pointer;
+    color: black;
+  }
+
+  #filter:hover{
+    color: #edf2f4;
+  }
