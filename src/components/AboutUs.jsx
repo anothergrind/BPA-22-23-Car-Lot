@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/styles/hero.css";
+import "/src/styles/Hero.css";
 
 // Component rendered for about us page
 export default function AboutUs() {
