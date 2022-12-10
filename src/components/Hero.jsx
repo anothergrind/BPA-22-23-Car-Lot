@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/hero.css";
+import "../styles/Hero.css";
 
 // component for hero section used in the home page
 export default function Hero(props) {
