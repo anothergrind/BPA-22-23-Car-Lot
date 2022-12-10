@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "../styles/navbar.css";
+import "../styles/NavBar.css";
 import wolf from "../pictures/weiss_wolves.png";
 
 // component for navbar used on every page
