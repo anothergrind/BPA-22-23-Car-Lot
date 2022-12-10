@@ -1,5 +1,5 @@
 import React from "react";
-import "/src/styles/hero.css";
+import "/src/styles/Hero.css";
 
 // component rendered for the explore page
 export default function Explore() {
