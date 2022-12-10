@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/sections.css";
+import "../styles/Sections.css";
 
 //section with title, picture, paragraph
 export default function Sections(props) {
@@ -11,7 +11,7 @@ export default function Sections(props) {
           <img
             className="image"
             src= {props.image_url}
-            />
+          />
           <p id="para">
             {props.paragraph1}
             {props.paragraph2}
