@@ -1,11 +1,11 @@
 import React from "react";
-import "../styles/explore.css";
-import "../styles/search.css";
+import "../styles/Explore.css";
+import "../styles/Search.css";
 import placeholder from "../pictures/about_us_hero.png";
 import mercedes_placeholder from "../pictures/carHero.png";
 import { useState, useEffect } from "react";
-import Car_container from "../components/car_container";
-import Sidebar from "../components/sidebar"
+import Car_container from "../components/CarContainer.jsx";
+import Sidebar from "../components/Sidebar.jsx"
 
 // shopping page
 export default function explore() {
