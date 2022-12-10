@@ -2,8 +2,8 @@ import React from "react";
 import { Button } from "react-router-dom";
 import Form from "react-bootstrap";
 import Stack from "react-bootstrap";
-import "../styles/sections.css";
-import "../styles/explore.css";
+import "../styles/Sections.css";
+import "../styles/Explore.css";
 
 export default function SearchSection() {
   return (
@@ -11,9 +11,9 @@ export default function SearchSection() {
       <br/>
       <h1>Start Shopping</h1>
         <form className="search-bar" id="section-search">
-          <input type="search" id="query" name="q" place  holder="Seach..." />
-          <button>Search</button>
-          <h4>Advanced Filter</h4>
+          <input type="search" id="query" name="q" place  placeholder="Search..." />
+          <button id="click">Search</button>
+          <h4 id="filter">Advanced Filter</h4>
         </form>
     </div>
   );
