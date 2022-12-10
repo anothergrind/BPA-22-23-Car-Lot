@@ -1,6 +1,6 @@
 import React from "react";
-import "../styles/sections.css";
-import "../styles/multi_image_section.css"
+import "../styles/Sections.css";
+import "../styles/MultiImageSection.css"
 
 export default function MultiSection(props) {
   return (
@@ -20,7 +20,7 @@ export default function MultiSection(props) {
         alt="temp" 
         />
         <img
-        id="image-2"
+        id="image-3"
         className="reviewer-image"
         src={props.image_url3}
         alt="temp"
