@@ -1,6 +1,6 @@
 import React from "react";
-import Sections from "../components/sections.jsx";
-import SectionContainer from "./section-container.jsx";
+import Sections from "./Sections.jsx";
+import SectionContainer from "./SectionContainer.jsx";
 import "../styles/sections.css";
 import "../styles/car_info.css";
 
