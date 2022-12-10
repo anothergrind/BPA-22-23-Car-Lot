@@ -10,7 +10,7 @@ BPA = Business Professionals of America
 • Listings of cars with specifications \
 • Links to sales representative(s) \
 • Contact forms \
-• Hours of operation \ 
-• Chat feature \ 
-• Loan estimator \ 
-• Car inventory search (color, tear, drive, etc.) \
+• Hours of operation\
+• Chat feature \
+• Loan estimator\
+• Car inventory search (color, tear, drive, etc.)
