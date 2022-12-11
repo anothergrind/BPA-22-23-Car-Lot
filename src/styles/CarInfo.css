@@ -38,7 +38,7 @@
     gap: 10px;
     overflow-y: scroll;
     padding: 0px;
-    background-color:brown
+    background-color: #DF2935;
 }
 
 .extra-images::-webkit-scrollbar {
@@ -47,12 +47,12 @@
 }
 
 .extra-images::-webkit-scrollbar-thumb {
-    background-color: rgb(99, 31, 31);
+    background-color: #DF2935;
     border-radius: 20px;
 }
 
 .extra-images::-webkit-scrollbar-track {
-    background-color: rgb(192, 177, 177);
+    background-color: #898F9B;
     opacity: .5;
     border-radius: 20px;
   }
@@ -61,7 +61,7 @@
     width: 80%;
     margin: auto;
     text-align: center;
-    border: 0.2rem solid black;
+    border: 0.2rem solid #121619;
 }
 
 #text-info-container {
@@ -69,5 +69,5 @@
 }
 
 #text-body-info {
-    color: red; 
+    color: #DF2935; 
 }
