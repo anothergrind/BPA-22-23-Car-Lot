@@ -24,7 +24,7 @@
 }
 
 #about-wolves {
-  background-color: #C50F0F;
+  background-color: #DF2935;
   font-family: "Inter", sans-serif; 
 }
 
@@ -48,6 +48,7 @@
   width: 30%;
   margin: auto;
   font-family: "Inter", sans-serif; 
+  font-weight: bolder;
 }
 
 #purpose-body {
@@ -75,6 +76,7 @@
   width: 60vh;
   height: 40vh;
   margin: auto;
+  border-radius: 10px;
 }
 
 #header {
@@ -94,7 +96,6 @@
 #section-search {
   top: 30%;
   margin-top: none;
-  
 }
 
 @media screen and (max-width: 600px) {
@@ -128,6 +129,10 @@
 
 .column {
   flex: 50%;
+}
+
+#query {
+  font-size: 20px;
 }
 
 /* Style the counter cards */
