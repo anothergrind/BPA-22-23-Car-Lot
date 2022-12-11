@@ -44,13 +44,12 @@ export default function explore() {
     mileage = "Mileage"
     body_type = "Body Type"
     cylinder = "Cylinder"
-    price = "price"
-    
+    price = "Price"
     />
       <div className="search-section">
         <form className="search-bar" onSubmit={searchSubmit} id="explore-search">
-          <input type="search" id="query" name="q" placeholder="Seach..." value={query} onChange={(e) => setQuery(e.target.value)} />
-          <button>Search</button>
+          <input type="search" id="query" name="q" placeholder="Search by Keyword..." value={query} onChange={(e) => setQuery(e.target.value)} />
+          <button id="explore-click">Search</button>
         </form>
       </div>
       <div className="cars-gallery">
