@@ -12,8 +12,12 @@ export default function SearchSection() {
       <h1>Start Shopping</h1>
         <form className="search-bar" id="section-search">
           <input type="search" id="query" name="q" place  placeholder="Search..." />
-          <button id="click">Search</button>
-          <h4 id="filter">Advanced Filter</h4>
+          <a href="/explore"> 
+            <button id="click">Search</button>
+          </a>
+          <a href="/explore">
+            <h4 id="filter">Advanced Filter</h4>
+          </a>
         </form>
     </div>
   );
