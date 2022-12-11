@@ -11,7 +11,7 @@
     flex-direction: column;
     text-align: center;
     top: 20%;
-    background-color: #cccccc;
+    background-color: #FDFFFC;
   }
   
   .search-bar {
@@ -19,18 +19,18 @@
   }
 
   #explore-search {
-    background-color: #cccccc;
+    background-color: #FDFFFC;
   }
   
   #query {
     width: 60vh;
     height: 10vh;
     border-radius: 37px;
-    background-color: #cccccc;
+    background-color: #FDFFFC;
   }
   
   .cars-gallery {
-    background-color: #cccccc;
+    background-color: #E3E3E3;
     display: flex;
     flex-direction: row;
     overflow-x: column;
@@ -73,29 +73,29 @@
   .sidebar-container{
     display: flex;
     flex-direction: column;
-    background: #FFC1C1;
+    background: #FDFFFC;
     border: none;
     text-align: left;
-    padding-left: 5px;
-    border-radius: 50px;
-    width: 15vh;
-    height: 60vh;
+    border-radius: 20px;
+    width: 10%;
+    height: 75%;
     position: fixed;
     margin : auto;
-    left: 20px;
     top: 15%;
-    font-size: 12px;
   }
 
   h1 {
-    padding-left: 15px;
+    padding-left: 20px;
+    font-family: "Inter", sans-serif;
   }
 
 
   .sidebar_link {
     text-decoration: none;
-    text-decoration: underline;
     color: black;
+    font-family: "Inter", sans-serif;
+    font-size: 10px;
+    padding-left: 15px;
   }
 
   .sidebar_link:visited{
@@ -105,5 +105,21 @@
   
   .sidebar_link:hover {
     opacity: 1;
+    color: #ADBAFF;
   }
   
+  #explore-click {
+    font-size: 24px;
+    border: 1px solid black;
+    background-color: #fdfffc;
+    padding: 10px;
+    border-radius: 35px;
+    transition-duration: .4s;
+  }
+
+  #explore-click:hover{
+    border: 1px solid white;
+    color: white;
+    background-color: black;
+    cursor: pointer;
+  }
