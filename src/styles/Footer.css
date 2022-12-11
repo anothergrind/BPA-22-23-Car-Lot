@@ -63,10 +63,14 @@
 }
 
 #list {
-  font-size: 24px;
+  font-size: 28px;
   cursor: pointer;
 }
 
 #contact-list {
   list-style-type: none;
+}
+
+#description {
+  padding-left: 20px;
 }
