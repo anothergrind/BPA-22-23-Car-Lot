@@ -17,7 +17,8 @@
 }
 
 .reviewer-image {
-    width: 50vh;
-    height: 20vh;
+    width: 40vh;
+    height: 25vh;
     margin: auto;
+    border-radius: 10px;
   }
