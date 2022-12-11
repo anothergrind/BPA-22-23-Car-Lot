@@ -11,6 +11,7 @@ export default function Sections(props) {
           <img
             className="image"
             src= {props.image_url}
+            temp="Red Jeep on the top of a hill"
           />
           <p id="para">
             {props.paragraph1}
