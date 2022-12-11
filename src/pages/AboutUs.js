@@ -28,7 +28,7 @@ export default function about_us() {
         header = "All About the Wolves"
         image_url = "https://uploads.codesandbox.io/uploads/user/4c2a8a2f-dad6-413e-bf24-18c8e11392c7/IKk0-ea6c6ac0563e321f006761b13f2caf24.png"
         paragraph1 = "We are proud to be the first wolf-only car dealership in the world! The only one that understands your needs and desires and "
-        paragraph2 = "can provide you with everything you could wish for. If you need a new or used car, we have all of them at a price you can afford"
+        paragraph2 = "can provide you with everything you could wish for. If you need a new or used car, we have all of them at a price you can afford."
 
         paragraph4 = "We are Chapter 02-1410 from Weiss High School"
         paragraph5 = "Address: 5201 Wolf Drive Dr, Pflugerville, TX, 78660"
