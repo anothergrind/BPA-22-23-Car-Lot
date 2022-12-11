@@ -26,9 +26,6 @@ const Footer = () => {
         <Link className="link" to="/explore">
           Explore
         </Link>
-        <Link className="link" to="/search">
-          Search
-        </Link>
       </div>
       {/* Going to have all of the Contact info in it, need to add the home and phone icons */}
       {/* Unordered list of contacts users can reach out to */}
