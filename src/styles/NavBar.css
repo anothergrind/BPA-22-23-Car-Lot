@@ -14,6 +14,7 @@
 }
 
 #site-name {
+  margin-top: 1%;
   margin-right: 10%;
 }
 
@@ -32,6 +33,7 @@
   color: white;
   margin: auto;
   font-size: 30px;
+  font-weight: 500;
   padding-left: 10px;
   opacity: 0.7;
 }
@@ -64,7 +66,7 @@
 
 @media only screen and (min-width: 700px) {
   .link {
-    font-size: 20px;
+    font-size: 40px;
   }
 
   #site-name {
