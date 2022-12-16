@@ -10,6 +10,7 @@
   top: 0;
   color: white;
   cursor: pointer;
+  font-weight: bold;
 }
 
 #site-name {
