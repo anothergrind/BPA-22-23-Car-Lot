@@ -35,22 +35,18 @@ export default function AboutUs() {
           {/*Straight out of last year */}
           {/* Please Update */}
           {/* Probably going to use the design from last year*/}
-          Biography: Hey, my name is Daniel Mekuria. I am a third-year member of
-          BPA (2019-20 State Qualifier for Fundamental of Web Design
-          Competition). I am a senior at Weiss High School, with a Health
+          Biography: Hey, my name is Daniel Mekuria. I am a fourth-year member of
+          BPA and the President of the Weiss BPA chapter. I am a senior at Weiss High School, with a Health
           Science Pathway. I also participate in the HOSA Chapter at Weiss High
           School, My Brother's Keeper Chapter (MBK) as the secretary, and a
           volunteer organization (outside of school) called Austin Ethiopian
-          Orthodox Tewahedo Youth (AEOTY) as the Service Coordinator , and I
+          Orthodox Tewahedo Youth (AEOTY) as the Service Coordinator, and I
           also volunteer in my church at St. Raguel Church, Manor, TX. I love
           making websites (especially when it works); it's also a cool thing to
           brag about to your friend. I also love watching comedy movies and
-          action (but action comedy is the best of both worlds). I play video
-          games such as Assassin's Creed, Mafia III, Call Of Duty, and some
-          others. I like to draw, write (just not essays), and compose music (a
-          little). My involvement in this project is creating most of the HTML
-          infrastructure of this website and the JavaScript portion of the
-          website.
+          action (but action comedy is the best of both worlds). I like to draw, write (just not essays),
+          play games. My involvement in this project is creating the rudimentary
+          design of this website's UI interface (via Figma).
         </text>
 
         <h4> Adam Taylor </h4>
