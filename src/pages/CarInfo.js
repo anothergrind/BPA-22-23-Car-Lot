@@ -1,11 +1,11 @@
 import React from "react";
 import { useState, useEffect } from"react";
 import { useParams } from "react-router-dom";
-import Hero from "../components/hero.jsx";
-import Sections from "../components/sections.jsx";
-import CarInfo from "../components/car_info.jsx";
-import "../styles/sections.css";
-import "../styles/car_info.css";
+import Hero from "../components/Hero.jsx";
+import Sections from "../components/Sections.jsx";
+import CarInfo from "../components/CarInfo.jsx";
+import "../styles/Sections.css";
+import "../styles/CarInfo.css";
 // about us page
 
 export default function CarInfoPage() {
