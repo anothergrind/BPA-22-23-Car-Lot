@@ -7,7 +7,7 @@
   position: fixed;
   justify-content: space-around;
   top: 0;
-  color: white;
+  color: black;
   cursor: pointer;
   font-weight: bold;
 }
@@ -29,7 +29,7 @@
 
 .link {
   text-decoration: none;
-  color: white;
+  color: black;
   margin: auto;
   font-size: 30px;
   font-weight: 500;
