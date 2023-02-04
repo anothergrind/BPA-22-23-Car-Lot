@@ -23,8 +23,8 @@ const Footer = () => {
         <Link className="link" to="/about_us">
           About
         </Link>
-        <Link className="link" to="/explore">
-          Explore
+        <Link className="link" to="/Inventory">
+          Inventory
         </Link>
       </div>
       {/* Going to have all of the Contact info in it, need to add the home and phone icons */}

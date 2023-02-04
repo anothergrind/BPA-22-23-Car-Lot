@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/Explore.css";
+import "../styles/Inventory.css";
 import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import { useState, useEffect } from "react";
 
