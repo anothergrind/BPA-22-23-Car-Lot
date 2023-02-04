@@ -30,9 +30,10 @@ const Footer = () => {
       {/* Going to have all of the Contact info in it, need to add the home and phone icons */}
       {/* Unordered list of contacts users can reach out to */}
       <div className="contacts">
-        <h1>Contacts</h1>
-        <h4>Phone Number: +1 512 594 1400</h4>
-        <h4>Address: 5201 Wolf Pack Dr, Pflugerville, TX, 78660</h4>
+        <h2>Contacts</h2>
+        <p>Phone Number: +1 512 594 1400</p>
+        <p>Address: 5201 Wolf Pack Dr, Pflugerville, TX, 78660</p>
+        <p>Chapter 02-1410</p>
       </div>
     </div>
   );
