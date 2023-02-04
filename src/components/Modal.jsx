@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "../styles/Modal.css";
 
-const Modal = ({title, text, image, alt}) => {
+const Modal = ({image, alt, title, text}) => {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
