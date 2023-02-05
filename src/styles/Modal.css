@@ -56,7 +56,8 @@
     font-size: 18px;
     border: none;
     cursor: pointer;
-    top: 10px;
-    right: 10px;
   }
   
+  .modal-button:hover{
+    color: #c50f0f;
+  }
