@@ -17,7 +17,7 @@ const Modal = ({image, alt, title, text}) => {
           <div className="modal">
             <div className="modal-header">
               <h2 className="modal-title"> {title} </h2>
-              <button onClick={() => setIsOpen(false)}>X</button>
+              <button className="modal-button" onClick={() => setIsOpen(false)}>X</button>
             </div>
             <div className="modal-body">
               <p> {text} </p>

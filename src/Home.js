@@ -24,7 +24,7 @@ export default function Home() {
         />
         <MultiSection
           id="tempid"
-          header="What do people say about us?"
+          header="Testimonials"
           image_url1="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiPhZnIOCpFl0oSWXANSZw38xanUiqkfwKQ&usqp=CAU"
           image_url2="https://cdn2.psychologytoday.com/assets/styles/manual_crop_1_91_1_1528x800/public/field_blog_entry_images/2018-09/shutterstock_648907024.jpg?itok=7lrLYx-B"
           image_url3="https://images.pexels.com/photos/4624915/pexels-photo-4624915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
