@@ -1,14 +1,15 @@
 import React from "react";
+import CarInfoPage from "./CarInfo";
 import "../styles/Inventory.css";
 import "../styles/Search.css";
-import placeholder from "../pictures/about_us_hero.png";
-import mercedes_placeholder from "../pictures/carHero.png";
 import { useState, useEffect } from "react";
-import Car_container from "../components/CarContainer.jsx";
-import Sidebar from "../components/Sidebar.jsx"
+import CarContainer from "../components/CarContainer";
+import Sidebar from "../components/Sidebar"
+import { Link } from "react-router-dom";
 
 // shopping page
-export default function explore() {
+export default function inventory() {
+  window.scrollTo(0, 0)
 
   const [car, setCar] = useState([]);
   const [query, setQuery] = useState("");
@@ -21,21 +22,50 @@ export default function explore() {
 
 
   async function searchSubmit(event) {
-    const categories = ["name", "price_range", "mileage", "fuel_type", "lifestyle", "make", "model", "year", "condition", "body_type", "cylinder", "price"]
+    const categories = ["name", "price", "mileage", "fuel_type", "lifestyle", "make", "model", "year", "condition", "body_type", "cylinder", "price"]
 
+    
     event.preventDefault();
-    const response = await fetch(`http://localhost:8000/search-cars?category=name&parameter=${encodeURIComponent(query)}`)
-    setCar(await response.json())
+    for(let i = 0; i < categories.length; i++){  
+    
+      const response = await fetch(`http://localhost:8000/search-cars?category=${categories[i]}&parameter=${encodeURIComponent(query)}`)
+      const the_response = await response.json()
+      if(the_response.length > 0) {
+        return the_response
+      }
+    }
+    return
   }
 
+  async function searchResult(event) {
+    event.preventDefault();
+
+    for(let i = 0; i < 12; i++) {
+      const searchRequest = await searchSubmit(event)
+      if(searchRequest.length > 0){
+        setCar(await searchRequest);
+      }
+    else {
+      setCar([])
+      }
+    }
+  }
+
+
+
+  async function filter(event) {
+    query = input
+    const response = await fetch(`https://ab362e678f4a.ngrok.io/search-cars?category=${categories[i]}&parameter=${encodeURIComponent(query)}`)
+  };
+
+
   useEffect(() => { cars()}, [])
-
-
   return (
     <>
     <body style={{backgroundColor: "#cccccc"}}>
-    <Sidebar
-    fuel = "Fuel type"
+    {/* <Sidebar
+    filter = {filter}
+    fuel_type = "Fuel type"
     lifestyle = "Lifestyle"
     make = "Make"
     model = "Model"
@@ -44,23 +74,26 @@ export default function explore() {
     mileage = "Mileage"
     body_type = "Body Type"
     cylinder = "Cylinder"
-    price = "Price"
-    />
+    price = "price"
+    
+    /> */}
       <div className="search-section">
-        <form className="search-bar" onSubmit={searchSubmit} id="explore-search">
-          <input type="search" id="query" name="q" placeholder="Search by Keyword..." value={query} onChange={(e) => setQuery(e.target.value)} />
-          <button id="explore-click">Search</button>
+        <form className="search-bar" onSubmit={searchResult} id="inventory-search">
+          <input type="search" id="query" name="q" placeholder="Search for cars..." value={query} onChange={(e) => setQuery(e.target.value)} />
+          <button id="inventory-search-button">Search</button>
         </form>
       </div>
       <div className="cars-gallery">
         { car.map((data) => {
           return(
             <>
-            <Car_container 
+            <Link id="car-link" to={`/car_info/${encodeURIComponent(data.id)}`} element= {<CarInfoPage />}>
+            <CarContainer 
             image_url = {data.image_url}
             name = {data.name}
-            price_range = {data.price_range}
+            price = {data.price}
             mileage = {data.mileage}/>
+            </Link>
             </>)})}
       </div>
       </body>
