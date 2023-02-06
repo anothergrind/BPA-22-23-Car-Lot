@@ -1,3 +1,7 @@
+#about-hero-overlay-text {
+  margin-top: 25%;
+}
+
 .devInfo {
   margin: auto;
   background-color: #898f9b;
@@ -6,7 +10,7 @@
   text-align: center;
   justify-content: space-evenly;
   width: 100%;
-  height:80vh;
+  height:50vh;
   padding: 35px;
   font-family: "Inter", sans-serif;
 }
@@ -64,9 +68,16 @@
   text-align: left;
   justify-content: flex-start;
   margin: auto;
+  height: 50vh;
   width: 50%;
 }
 
 #our-purpose img {
   display: none;
+}
+
+#container-h2 {
+  font-size: 35px;
+  text-align: center;
+  margin: auto;
 }
