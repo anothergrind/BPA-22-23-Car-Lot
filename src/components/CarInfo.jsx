@@ -3,6 +3,7 @@ import "../styles/Sections.css";
 import "../styles/CarInfo.css";
 
 // about us page
+
 function Info(props) {
     return ( 
     <div className="info">
@@ -28,7 +29,7 @@ export default function CarInfo(props) {
                 <Info 
                 tag1 = "Model"
                 value1 = {props.the_value1}
-                tag2 = "Make: temp"
+                tag2 = "Make"
                 value2 = {props.the_value2}
                 />
                 <Info 
