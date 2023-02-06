@@ -6,11 +6,12 @@
   width: 100%;
   position: fixed;
   justify-content: space-around;
+  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   top: 0;
   color: white;
-  background-image: linear-gradient(rgba(0, 0, 0, 1), rgba(0, 0, 0, 0));
   cursor: pointer;
   font-weight: bold;
+  z-index: 5;
 }
 
 #site-name {
@@ -35,7 +36,7 @@
   font-size: 30px;
   font-weight: 500;
   padding-left: 10px;
-  font-family: "Inter", sans-serif;
+  opacity: 0.7;
 }
 
 .link:hover {
@@ -44,11 +45,11 @@
 
 @media only screen and (max-width: 1150px) {
   .link {
-    font-size: 35px;
+    font-size: 20px;
   }
 
   #site-name {
-    font-size: 38px;
+    font-size: 30px;
   }
 
   #wolves-icon {
@@ -66,11 +67,11 @@
 
 @media only screen and (min-width: 700px) {
   .link {
-    font-size: 25px;
+    font-size: 40px;
   }
 
   #site-name {
-    font-size: 28px;
+    font-size: 22px;
   }
 
   #wolves-icon {
