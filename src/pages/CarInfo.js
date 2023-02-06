@@ -1,7 +1,6 @@
 import React from "react";
 import { useState, useEffect } from"react";
 import { useParams } from "react-router-dom";
-import Hero from "../components/Hero.jsx";
 import Sections from "../components/Sections.jsx";
 import CarInfo from "../components/CarInfo.jsx";
 import "../styles/Sections.css";
@@ -9,6 +8,7 @@ import "../styles/CarInfo.css";
 // about us page
 
 export default function CarInfoPage() {
+  window.scrollTo(0, 0)
 
   const get_id = useParams();
 
@@ -52,11 +52,14 @@ export default function CarInfoPage() {
         )})}
     <Sections 
     id="schedule-appointmnet"
-    header = "Schedule your appointment today!"
-    image_url = "https://uploads.codesandbox.io/uploads/user/4c2a8a2f-dad6-413e-bf24-18c8e11392c7/lV8i-about_us_hero.png"
-    paragraph2 = "Phone Number"
-    paragraph3 = "Email"
-    paragraph4 = "Address"
+    the_header = "Schedule your appointment today!"
+    body_id = "appointment-body"
+    image_url = "https://cdn.discordapp.com/attachments/538152936518189058/1052006874653933578/MeHeadshot.jpg"
+    image_id = "professional-kamsi"
+    para_id = "prof-info"
+    paragraph5 = "Phone one of our proffesionals: +1 512-594-1400"
+    paragraph6 = "Email to make sure we stay in contact: weiss.wolves.dealership@gmail.com"
+    paragraph7 = "Address: 5201 Wolf Pack Dr, Pflugerville, TX 78660"
     />
     </>
   );
