@@ -17,7 +17,7 @@
     flex-direction: row;
     width: 100%;
     margin: auto;
-    height: 60vh
+    height: 80vh;
   }
 
 .info-rows {
@@ -70,4 +70,28 @@
 
 #text-body-info {
     color: red; 
+}
+
+#professional-kamsi {
+    margin: auto;
+    padding-bottom: 15px;
+    border-radius: 25px;
+    width: 20%;
+    height: 30%;
+}
+
+#appointment-body {
+    display: flex;
+    margin-left: 2%;
+    margin-right: 2%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+  }
+
+#prof-info {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 10%;
+    margin-top: 0px;
 }
