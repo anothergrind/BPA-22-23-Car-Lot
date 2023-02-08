@@ -39,18 +39,7 @@ export default function DeveloperInfo(props) {
           <Modal 
           image="https://cdn.discordapp.com/attachments/1022660409167183933/1052005712898830336/daniel.png"
           title="Daniel Mekuria - Chief Executive Officer"
-          text="Biography: Hey, my name is Daniel Mekuria. I am a fourth-year member of
-            BPA and the President of the Weiss BPA chapter. I am a senior at Weiss High School, with a Health
-            Science Pathway. I also participate in the HOSA Chapter at Weiss High
-            School, My Brother's Keeper Chapter (MBK) as the secretary, and a
-            volunteer organization (outside of school) called Austin Ethiopian
-            Orthodox Tewahedo Youth (AEOTY) as the Service Coordinator, and I
-            also volunteer in my church at St. Raguel Church, Manor, TX. I love
-            making websites (especially when it works); it's also a cool thing to
-            brag about to your friend. I also love watching comedy movies and
-            action (but action comedy is the best of both worlds). I like to draw, write (just not essays),
-            play games. My involvement in this project is creating the rudimentary
-            design of this website's UI interface (via Figma)."
+          text="Biography: Hi, I'm Daniel Mekuria, a senior at Weiss High School with a pathway in Health Science. I'm a member of BPA, serving as the President of the Weiss BPA chapter, and involved in various school and community organizations such as HOSA, MBK, AEOTY, and St. Raguel Church. In my free time, I enjoy web design, watching movies, drawing, writing, and playing games. I'm responsible for creating the rudimentary design of the website's UI interface using Figma."
           />
         )}
 
@@ -71,15 +60,7 @@ export default function DeveloperInfo(props) {
             id="Kamsi-blurb"
             title="Kamsi Ozorji - Sales Director"
             image="https://cdn.discordapp.com/attachments/1022660409167183933/1051985284151136296/IMG_20220601_105154014.jpg"
-            text="Biography: My Name is Kamsi Ozorji. I'm a Senior at Weiss High School.
-            It's my second year participating in Business Professionals of
-            America. I also particpiate in Code2College, where we grow our
-            professional and technical skills and intern at a company over the
-            summer. I also volunteer at the church that I reguarly attend, RCCG
-            Corerstone ATX, whether it's moving equipment, setting up for service,
-            troubleshooting problems, and etc. In this project, I was mainly
-            involved by conducting research and collecting data from online car
-            dealerships to help my team create this amazing website.."
+            text="Biography: My Name is Kamsi Ozorji. I'm a Senior at Weiss High School. It's my second year participating in Business Professionals of America. I also particpiate in Code2College, where we grow our professional and technical skills and intern at a company over the summer. I also volunteer at the church that I reguarly attend, RCCG Corerstone ATX, whether it's moving equipment, setting up for service, troubleshooting problems, and etc. In this project, I was mainly involved by conducting research, collecting data from online car dealerships, and building a good portion of the frontend of this project"
 
           />
         )}

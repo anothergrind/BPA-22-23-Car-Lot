@@ -12,8 +12,8 @@ export default function Modal(props) {
         <div className="modal-wrapper">
           <div className="modal">
             <div className="modal-header">
-              <h1>{props.title}</h1>
-              <button className="modal-close" onClick={toggleModal}>Close</button>
+              <h2>{props.title}</h2>
+              <button className="modal-button" onClick={toggleModal}>X</button>
             </div>
             <div className="modal-body">
               <div className="modal-left">
