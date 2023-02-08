@@ -6,7 +6,7 @@ export default function Sections(props) {
   return (
     <>
       <div className="section-container" id={props.id}>
-        <h1 id={props.header_id}>{props.the_header}</h1>
+        < h1 id={props.header_id} className="theHeader">{props.the_header}</h1>
         <div id={props.body_id}className="theBody">
           <img
             className="image"
