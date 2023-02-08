@@ -24,7 +24,7 @@ export default function Home() {
           para_id = "para"
           paragraph1="Wolves Dealership is an online car business that provides a convenient and hassle-free way for you to purchase your dream car. We offer a wide selection of quality new and used vehicles from all the major brands. Our dealership aims to provide people with high-quality cars at an affordable price that users agree with."
         />
-        <MultiSection
+        {/*<MultiSection
           id="tempid"
           header="Testimonials"
           image_url1="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSuiPhZnIOCpFl0oSWXANSZw38xanUiqkfwKQ&usqp=CAU"
@@ -32,7 +32,7 @@ export default function Home() {
           image_url3="https://images.pexels.com/photos/4624915/pexels-photo-4624915.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2"
           image_url4="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600"
           image_url5="https://images.pexels.com/photos/806835/pexels-photo-806835.jpeg?auto=compress&cs=tinysrgb&w=600"
-        />
+  />*/}
         <SearchSection />
       </div>
     </>
