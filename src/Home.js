@@ -6,6 +6,7 @@ import "./styles/Sections.css";
 import Sections from "./components/Sections.jsx";
 import MultiSection from "./components/MultiImageSection.jsx";
 import SearchSection from "./components/SearchSection.jsx";
+import Testimonial from "./components/Testimonial.jsx";
 
 // default website page
 export default function Home() {
@@ -33,7 +34,7 @@ export default function Home() {
           image_url4="https://images.pexels.com/photos/3182812/pexels-photo-3182812.jpeg?auto=compress&cs=tinysrgb&w=600"
           image_url5="https://images.pexels.com/photos/806835/pexels-photo-806835.jpeg?auto=compress&cs=tinysrgb&w=600"
   />*/}
-        <SearchSection />
+        <Testimonial/>
       </div>
     </>
   );
