@@ -1,5 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300&display=swap");
-
 .Footer {
   display: flex;
   flex-direction: row;
@@ -38,7 +36,17 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-}
+  }
+  
+  .contacts-header {
+  font-size: 1.5rem;
+  margin-bottom: 25px; 
+  }
+  
+  .contacts-text {
+  font-size: 0.9rem;
+  margin-bottom: 10px; 
+  }
 
 #footer-wolves-icon {
   width: 35vh;

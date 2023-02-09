@@ -31,10 +31,10 @@ export default function Footer() {
       {/* Going to have all of the Contact info in it, need to add the home and phone icons */}
       {/* Unordered list of contacts users can reach out to */}
       <div className="contacts">
-        <h2>Contacts</h2>
-        <p>Phone Number: +1 512 594 1400</p>
-        <p>Address: 5201 Wolf Pack Dr, Pflugerville, TX, 78660</p>
-        <p>Chapter 02-1410</p>
+        <h2 className="contacts-header">Contacts</h2>
+        <p className="contacts-text">Phone Number: +1 512 594 1400</p>
+        <p className="contacts-text">Address: 5201 Wolf Pack Dr, Pflugerville, TX, 78660</p>
+        <p className="contacts-text">Chapter 02-1410</p>
       </div>
     </div>
   );
