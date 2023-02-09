@@ -55,7 +55,7 @@
 
 .modal-text {
   text-align: center;
-  font-size: 25px;
+  font-size: 1.5625rem;
 }
 
 .modal-img {
@@ -69,7 +69,7 @@
   font-weight: bold;
   background-color: transparent;
   color: black;
-  font-size: 18px;
+  font-size: 1.125rem;
   border: none;
   cursor: pointer;
   top: 10px;

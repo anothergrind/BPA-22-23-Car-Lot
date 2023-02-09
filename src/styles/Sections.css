@@ -71,7 +71,7 @@
   font-family: "Inter", sans-serif;
   padding-top: 50px;
   text-align: center;
-  font-size: 38px;
+  font-size: 2.375rem;
   font-family: "Inter", sans-serif;
   font-weight: 700;
 }
@@ -90,7 +90,7 @@
 }
 
 #para {
-  font-size: 25px;
+  font-size: 1.5625rem;
   text-align: center;
   width: 60%;
   margin: auto;
@@ -101,7 +101,7 @@
 
 @media (max-width: 767px) {
   #para {
-    font-size: 20px;
+    font-size: 1.25rem;
     width: 80%;
   }
 }
@@ -146,7 +146,7 @@
 }
 
 #query {
-  font-size: 20px;
+  font-size: 1.25rem;
 }
 
 /* Style the counter cards */

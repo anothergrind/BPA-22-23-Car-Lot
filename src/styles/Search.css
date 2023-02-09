@@ -35,7 +35,7 @@
   }
 
   #click {
-    font-size: 24px;
+    font-size: 1.5rem;
     border: 1px solid black;
     background-color: #fdfffc;
     padding: 10px;
@@ -51,7 +51,7 @@
   }
 
   #filter{
-    font-size: 16px;
+    font-size: 1rem;
     font-family: "Inter", sans-serif; 
     text-align: left;
     padding-left: 400px;

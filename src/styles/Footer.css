@@ -55,15 +55,15 @@
 
 #site-name {
   margin-right: 10%;
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 .footer-header {
-  font-size: 36px;
+  font-size: 2.25rem;
 }
 
 #list {
-  font-size: 28px;
+  font-size: 1.8125rem;
   cursor: pointer;
 }
 
@@ -72,5 +72,5 @@
 }
 
 #description {
-  padding-left: 20px;
+  padding-left: 1.25rem;
 }
