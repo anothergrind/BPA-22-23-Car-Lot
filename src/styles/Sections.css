@@ -9,14 +9,20 @@
   font-family: "Inter", sans-serif;
 }
 
+.container-h2 {
+  font-size: 1.5625rem;
+}
+
 #dealership-description {
-  background-color: #DF2935;
+  background-color: #df2935;
   font-family: "Inter", sans-serif;
+  color: #000000;
 }
 
 #about-wolves {
-  background-color: #DF2935;
+  background-color: #df2935;
   font-family: "Inter", sans-serif; 
+  color: #000000;
 }
 
 #section-three {

@@ -5,12 +5,12 @@ import "../styles/Footer.css";
 import wolf from "../pictures/weiss_wolves.png";
 
 // component for footer used in every page on the website
-const Footer = () => {
+export default function Footer() {
   return (
     <div className="Footer">
       {/* company description section */}
       <div className="footer-container">
-        <h2>Wolves Dealership<sup>©</sup></h2>
+        <h2 classNam="footer-header">Wolves Dealership<sup>TM</sup></h2>
         <p id="description"> Wolves Dealership is an online car business that provides a convenient and hassle-free way for you to purchase your dream car. We offer a wide selection of quality new and used vehicles from all the major brands. Our dealership aims to provide people with high-quality cars at an affordable price that users agree with.
         </p>
       </div>
@@ -39,5 +39,3 @@ const Footer = () => {
     </div>
   );
 };
-
-export default Footer;
