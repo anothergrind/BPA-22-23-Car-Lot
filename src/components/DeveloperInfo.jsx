@@ -78,7 +78,7 @@ export default function DeveloperInfo(props) {
 
           <div className="devCard" onClick={clickKamsi}>
             <h2>Kamsi Ozorji</h2>
-            <h3>Chief Sales Officer</h3>
+            <h3>Chief Marketing Officer</h3>
           </div>
         </div>
       </div>
