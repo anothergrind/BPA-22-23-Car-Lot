@@ -43,6 +43,7 @@
 
 .link:hover {
   opacity: 1;
+  color: #df2935;
   font-family: "Inter", sans-serif;
 }
 

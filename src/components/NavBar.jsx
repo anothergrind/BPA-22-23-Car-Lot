@@ -4,12 +4,12 @@ import "../styles/NavBar.css";
 import wolf from "../pictures/weiss_wolves.png";
 
 // component for navbar used on every page
-const Navbar = () => {
+export default function Navbar () {
   return (
     <div className="Nav">
       <img id="wolves-icon-nav" src={wolf} alt="weiss" />
       <h1 id="site-name">
-        Wolves Dealership<sup>©</sup>
+        Wolves Dealership<sup>TM</sup>
       </h1>
       <Link className="link" to="/Home">
         Home
@@ -24,4 +24,3 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
