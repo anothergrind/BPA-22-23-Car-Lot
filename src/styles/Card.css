@@ -1,0 +1,21 @@
+.cards {
+    background-color: #ffffff; 
+    width: 20rem;
+   }
+
+.card-title{
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-weight: 40rem;
+}
+
+.card-text{
+    color: #000000;
+    font-family: "Inter", sans-serif;
+    font-weight: 40rem;
+}
+
+img{
+    width: 100%;
+    transition: all 0.5s ease;
+}

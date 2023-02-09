@@ -1,0 +1,12 @@
+.carousel-container{
+    padding: 20px;
+    opacity: 1;
+}
+
+.carousel-header {
+    color: #000000;
+    font-size: 2.375rem;
+    font-family: "Inter", sans-serif;
+    font-weight: 43.25rem;
+    padding-top: 1.25rem;
+}
