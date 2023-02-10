@@ -57,7 +57,7 @@ export default function CarInfoPage() {
     image_url = "https://cdn.discordapp.com/attachments/538152936518189058/1052006874653933578/MeHeadshot.jpg"
     image_id = "professional-kamsi"
     para_id = "prof-info"
-    paragraph5 = "Phone one of our proffesionals: +1 512-594-1400"
+    paragraph5 = "Phone one of our professionals: +1 512-594-1400"
     paragraph6 = "Email to make sure we stay in contact: weiss.wolves.dealership@gmail.com"
     paragraph7 = "Address: 5201 Wolf Pack Dr, Pflugerville, TX 78660"
     />
