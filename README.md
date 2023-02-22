@@ -1,8 +1,8 @@
 # BPA-22-23-Car-Lot
-BPA = Business Professionals of America 
+BPA stands for Business Professionals of America 
 
 ## We're competing in the Web Design Team with a team of 3 and our topic for this year is below
-
+ 
 ### Topic: Develop a website for a used car lot. Your site may include, but is not limited to:
 • Company name \
 • Company logo \
