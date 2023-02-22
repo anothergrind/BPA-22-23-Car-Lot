@@ -14,3 +14,9 @@ BPA = Business Professionals of America
 • Chat feature \
 • Loan estimator\
 • Car inventory search (color, tear, drive, etc.)
+
+## License
+The source code of this project itself is protected under the Apache License
+
+
+
