@@ -58,7 +58,7 @@ export default function DeveloperInfo(props) {
         {kamsi && (
           <Modal
             id="Kamsi-blurb"
-            title="Kamsi Ozorji - Sales Director"
+            title="Kamsi Ozorji - Chief Marketing Officer"
             image="https://cdn.discordapp.com/attachments/1022660409167183933/1051985284151136296/IMG_20220601_105154014.jpg"
             text="Biography: My Name is Kamsi Ozorji. I'm a Senior at Weiss High School. It's my second year participating in Business Professionals of America. I also particpiate in Code2College, where we grow our professional and technical skills and intern at a company over the summer. I also volunteer at the church that I reguarly attend, RCCG Corerstone ATX, whether it's moving equipment, setting up for service, troubleshooting problems, and etc. In this project, I was mainly involved by conducting research, collecting data from online car dealerships, and building a good portion of the frontend of this project"
 
